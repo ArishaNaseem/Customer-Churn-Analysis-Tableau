@@ -4,7 +4,8 @@ This project explores customer churn behavior in a telecom company using a publi
 The goal is to identify key factors influencing customer churn and provide insights for improving retention.
 
 ## 🔧 Tools Used
-- **Excel / Google Sheets** → Data cleaning and inspection  
+- **Excel / Google Sheets** → Data inspection
+- **R **Studio****→ Data Cleaning
 - **Tableau Public** → Dashboard creation and visualization  
 
 ## 📊 Key Insights
@@ -30,3 +31,4 @@ The goal is to identify key factors influencing customer churn and provide insig
 ---
 
 *Created by Arisha Naseem | Tools: Tableau, Excel | October 2025*
+
