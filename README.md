@@ -5,7 +5,7 @@ The goal is to identify key factors influencing customer churn and provide insig
 
 ## 🔧 Tools Used
 - **Excel / Google Sheets** → Data inspection
-- **R **Studio****→ Data Cleaning
+- **R **Studio**** → Data Cleaning
 - **Tableau Public** → Dashboard creation and visualization  
 
 ## 📊 Key Insights
@@ -31,4 +31,5 @@ The goal is to identify key factors influencing customer churn and provide insig
 ---
 
 *Created by Arisha Naseem | Tools: Tableau, Excel | October 2025*
+
 
