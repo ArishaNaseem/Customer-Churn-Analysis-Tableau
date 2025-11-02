@@ -30,18 +30,31 @@ These plots are saved automatically as PNGs in the `dashboard_screenshots/` fold
 Customer-Churn-Analysis/
 │
 ├── data/
-│   ├── raw/telco_churn.csv  
+
+│   ├── raw/telco_churn.csv
+
 │   └── clean/telco_churn_clean.csv  
+
 │
+
 ├── dashboard_screenshots/
+
 │   ├── churn_dashboard.png  
+
 │   ├── contract_vs_churn.png  
+
 │   ├── monthlycharges_vs_churn.png  
+
 │   ├── payment_vs_churn.png  
+
 │
+
 ├── scripts/
+
 │   └── data_cleaning.R  
+
 │
+
 └── README.md  
 
 ## Key Insights
@@ -66,4 +79,5 @@ View the interactive dashboard here:
 
 Created by **Arisha Naseem**  
 *Tools: R, Tableau, Excel | October 2025*
+
 
