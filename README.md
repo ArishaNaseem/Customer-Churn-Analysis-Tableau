@@ -50,12 +50,6 @@ Customer-Churn-Analysis/
 - Automatic payments and long-term contracts reduce churn significantly.  
 - Customers with tenure above 2 years rarely churn.  
 
-## Dashboard
-![Tableau Dashboard](dashboard_screenshots/churn_dashboard.png)
-![Contract vs Churn](dashboard_screenshots/contract_vs_churn.png)
-![Monthly Charges vs Churn](dashboard_screenshots/monthlycharges_vs_churn.png)
-![Payment Method vs Churn](dashboard_screenshots/payment_vs_churn.png)
-
 View the interactive dashboard here:  
 [Customer Churn Tableau Dashboard](https://public.tableau.com/app/profile/arisha.naseem/viz/CustomerChurnAnalysisDashboard_17617368020950/CustomerChurnAnalysisDashboard)
 
@@ -72,3 +66,4 @@ View the interactive dashboard here:
 
 Created by **Arisha Naseem**  
 *Tools: R, Tableau, Excel | October 2025*
+
