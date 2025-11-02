@@ -1,36 +1,74 @@
-# Customer Churn Analysis — Tableau Project
+# Customer Churn Analysis — Tableau + R
 
-This project explores customer churn behavior in a telecom company using a public Kaggle dataset.  
-The goal is to identify key factors influencing customer churn and provide insights for improving retention.
+This project explores telecom customer churn using a public Kaggle dataset.  
+It identifies key factors that influence customer churn and provides business insights for retention.
 
-## 🔧 Tools Used
-- **Excel / Google Sheets** → Data inspection
-- **R **Studio**** → Data Cleaning
-- **Tableau Public** → Dashboard creation and visualization  
+## Tools Used
+- R (RStudio) → Data cleaning and visualization (EDA)
+- Tableau Public → Dashboard and insights
+- Excel / Google Sheets → Data inspection
 
-## 📊 Key Insights
-- Customers with **higher monthly charges** and **shorter tenure** are more likely to churn.  
-- **Month-to-month contracts** and **electronic check payments** show the **highest churn rates**.  
-- **Automatic payments** and **long-term contracts** significantly reduce churn.  
-- Customers with **tenure > 2 years** have a **very low churn rate**.
+## Project Workflow
+1. Loaded raw data from Kaggle  
+2. Cleaned and prepared the dataset using R  
+3. Performed exploratory data analysis (EDA)  
+4. Created interactive visualizations in Tableau  
 
-## 📈 Dashboard Preview
-![Dashboard Screenshot](dashboard_screenshots/churn_dashboard.png)
+## R Script Overview
+The R script performs:
+- Data cleaning (handling missing values, converting data types)
+- Saving cleaned dataset (`data/clean/telco_churn_clean.csv`)
+- Generating churn visuals:
+  - Churn distribution
+  - Churn rate by contract type and internet service
+  - Monthly charges vs churn
+  - Tenure distribution  
 
-🔗 **[View the Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/arisha.naseem/viz/CustomerChurnAnalysisDashboard_17617368020950/CustomerChurnAnalysisDashboard)**
+These plots are saved automatically as PNGs in the `dashboard_screenshots/` folder.
 
-## 📁 Dataset
+## Folder Structure
+Customer-Churn-Analysis/
+│
+├── data/
+│   ├── raw/telco_churn.csv  
+│   └── clean/telco_churn_clean.csv  
+│
+├── dashboard_screenshots/
+│   ├── churn_dashboard.png  
+│   ├── contract_vs_churn.png  
+│   ├── monthlycharges_vs_churn.png  
+│   ├── payment_vs_churn.png  
+│
+├── scripts/
+│   └── data_cleaning.R  
+│
+└── README.md  
+
+## Key Insights
+- Customers with higher monthly charges and shorter tenure churn more.  
+- Month-to-month contracts and electronic check payments show highest churn.  
+- Automatic payments and long-term contracts reduce churn significantly.  
+- Customers with tenure above 2 years rarely churn.  
+
+## Dashboard
+![Tableau Dashboard](dashboard_screenshots/churn_dashboard.png)
+![Contract vs Churn](dashboard_screenshots/contract_vs_churn.png)
+![Monthly Charges vs Churn](dashboard_screenshots/monthlycharges_vs_churn.png)
+![Payment Method vs Churn](dashboard_screenshots/payment_vs_churn.png)
+
+View the interactive dashboard here:  
+[Customer Churn Tableau Dashboard](https://public.tableau.com/app/profile/arisha.naseem/viz/CustomerChurnAnalysisDashboard_17617368020950/CustomerChurnAnalysisDashboard)
+
+## Dataset
 [Kaggle — Telco Customer Churn Dataset](https://www.kaggle.com/blastchar/telco-customer-churn)
 
-## 💡 Business Recommendations
-- Incentivize **long-term contracts** through discounts.  
-- Encourage customers to switch to **automatic payments**.  
-- Focus on **early-stage customers** (tenure < 12 months) with retention programs.  
-- Provide **personalized offers** for high-bill customers to improve satisfaction.
+## Business Recommendations
+- Offer discounts for long-term contracts.  
+- Encourage auto-pay enrollment.  
+- Focus retention on customers with less than 12 months tenure.  
+- Provide loyalty rewards for high-bill customers.  
 
 ---
 
-*Created by Arisha Naseem | Tools: Tableau, Excel | October 2025*
-
-
-
+Created by **Arisha Naseem**  
+*Tools: R, Tableau, Excel | October 2025*
