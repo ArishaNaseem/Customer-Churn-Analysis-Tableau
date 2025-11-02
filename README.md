@@ -24,9 +24,6 @@ The R script performs:
   - Monthly charges vs churn
   - Tenure distribution  
 
-These plots are saved automatically as PNGs in the `dashboard_screenshots/` folder.
-
-
 ## Key Insights
 - Customers with higher monthly charges and shorter tenure churn more.  
 - Month-to-month contracts and electronic check payments show highest churn.  
@@ -49,6 +46,7 @@ View the interactive dashboard here:
 
 Created by **Arisha Naseem**  
 *Tools: R, Tableau, Excel | October 2025*
+
 
 
 
